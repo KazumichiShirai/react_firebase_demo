@@ -59,6 +59,11 @@ class Sampledata extends Component {
     }
     return (
       <table><tbody>
+        <tr>
+          <th>Name</th>
+          <td>ngrok</td>
+          <td>updated</td>
+        </tr>
         {this.getTableData()}
       </tbody></table>
     )
