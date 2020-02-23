@@ -6,14 +6,14 @@ import firebase from "firebase";
 
 // Firebaseの設定
 var config = {
-  apiKey: "AIzaSyArl-TRQxkbaJZADZqM_b2BnLXfZ0TV068",
-  authDomain: "shirai-react.firebaseapp.com",
-  databaseURL: "https://shirai-react.firebaseio.com",
-  projectId: "shirai-react",
-  storageBucket: "shirai-react.appspot.com",
-  messagingSenderId: "186479167192",
-  appId: "1:186479167192:web:3b0c91f31647a04623b9ad",
-  measurementId: "G-NX97G9MBNN"
+  apiKey: "AIzaSyDucG4uFbb0ZyaMAh3jiF8KoZirVO42k10",
+  authDomain: "ngrok-dummy.firebaseapp.com",
+  databaseURL: "https://ngrok-dummy.firebaseio.com",
+  projectId: "ngrok-dummy",
+  storageBucket: "ngrok-dummy.appspot.com",
+  messagingSenderId: "415470711432",
+  appId: "1:415470711432:web:d7e812face55e430cca53d",
+  measurementId: "G-8P9VPYHXES"
 };
 
 // Firebaseの初期化

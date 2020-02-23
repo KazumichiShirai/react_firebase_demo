@@ -24,7 +24,7 @@ class Sampledata extends Component {
   // Firebaseからのデータ取得
   getFireData(){
     let db = firebase.database();
-    let ref = db.ref('sample/');
+    let ref = db.ref('devices/');
     let self = this;
     ref.orderByKey()
       .limitToFirst(10)
@@ -44,9 +44,9 @@ class Sampledata extends Component {
     }
     for(let i in this.state.data){
       result.push(<tr key={i}>
-        <th>{this.state.data[i].ID}</th>
-        <td>{this.state.data[i].name}</td>
-        <td>{this.state.data[i].message}</td>
+        <th>{this.state.data[i].name}</th>
+        <td>{this.state.data[i].ngrok}</td>
+        <td>{this.state.data[i].updated}</td>
       </tr>);
     }
     return result;
