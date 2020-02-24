@@ -2,10 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import Demo from './Demo';
 
 
 // 表示をレンダリング
 ReactDOM.render(
-    <App />,
-    document.getElementById('root')
+    <Demo />,
+    document.querySelector('#root')
 );
